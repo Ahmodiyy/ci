@@ -15,6 +15,7 @@ public class AppTest{
         String appName = app.app();
         Assertions.assertEquals("ci", appName);
     }
+    @Test
     void appTests(){
         App app = new App();
         String appName = app.app();
