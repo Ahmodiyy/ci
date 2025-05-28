@@ -13,12 +13,12 @@ public class AppTest{
     void appTest(){
         App app = new App();
         String appName = app.app();
-        Assertions.assertEquals("ci", appName);
+        Assertions.assertEquals("continuous integration", appName);
     }
     @Test
     void appTestss(){
         App app = new App();
         String appName = app.app();
-        Assertions.assertEquals("ci", appName);
+        Assertions.assertEquals("continuous integration", appName);
     }
 }
