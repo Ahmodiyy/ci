@@ -6,6 +6,6 @@ package org.example;
  */
 public class App {
     public String app(){
-        return "ci";
+        return "continuous integration";
     }
 }
